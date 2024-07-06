@@ -99,12 +99,7 @@ function ToolsExperience() {
               </div>
               <p>Material UI</p>
             </div>
-            <div className="tool">
-              <div className="i">
-                <i style={{ color: "currentcolor" }} class="fa-solid fa-f"></i>
-              </div>
-              <p>Font Aws</p>
-            </div>
+
             <div className="tool">
               <div className="i">
                 <i style={{ color: "hotpink" }} class="fa-solid fa-a"></i>
@@ -117,6 +112,12 @@ function ToolsExperience() {
               </div>
 
               <p>Git/Hub</p>
+            </div>
+            <div className="tool">
+              <div className="i">
+                <i style={{ color: "currentcolor" }} class="fa-solid fa-f"></i>
+              </div>
+              <p>Font Aws</p>
             </div>
           </div>
         </div>
