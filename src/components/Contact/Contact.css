@@ -67,3 +67,27 @@
   width: 100%;
   height: 100%;
 }
+@media (max-width: 400px) {
+  .contact {
+    width: 350px;
+    margin-left: 20px;
+  }
+  #contact-details {
+    flex-direction: column;
+    width: 350px;
+  }
+  #contact-details .map {
+    width: 350px;
+  }
+  #contact-details .map iframe {
+    width: 310px;
+  }
+  #contact-details .details h2,
+  #form-details form h2,
+  #contact-details .details h3 {
+    width: 350px;
+  }
+  #contact-details .details div li {
+    width: 300px;
+  }
+}

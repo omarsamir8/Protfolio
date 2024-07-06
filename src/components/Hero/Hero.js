@@ -19,10 +19,10 @@ function Hero() {
             APIs and have successfully and creating animations
           </p>
           <div className="buttons">
-            <button className="animate__animated animate__bounceInLeft">
+            <button className="animate__animated animate__bounceInLeft explore">
               Explore
             </button>
-            <button className="animate__animated animate__bounceInRight">
+            <button className="animate__animated animate__bounceInRight cv">
               Download CV{" "}
               <i style={{ color: "brown " }} class="fa-solid fa-download"></i>
             </button>

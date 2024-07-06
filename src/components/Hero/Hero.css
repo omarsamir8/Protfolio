@@ -103,3 +103,34 @@
     width: 2px;
   }
 }
+
+@media (max-width: 400px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left h1 span {
+    display: block;
+  }
+  .left p {
+    width: 350px;
+  }
+  .buttons {
+    width: 100%;
+    gap: 30px;
+  }
+  .left .cv {
+    padding: 0px 30px;
+  }
+  .left .explore {
+    padding: 10px 45px;
+  }
+  .right {
+    margin-top: 20px;
+  }
+  .right img {
+    width: 350px;
+    height: 400px;
+  }
+}

@@ -112,3 +112,14 @@
 .expreience p {
   margin-top: -5px;
 }
+@media (max-width: 400px) {
+  .toolsandexperience {
+    flex-direction: column;
+  }
+  .tools {
+    width: 360px;
+  }
+  .expreience {
+    width: 350px;
+  }
+}

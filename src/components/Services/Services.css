@@ -76,3 +76,12 @@
 .service-details p {
   font-family: cursive;
 }
+
+@media (max-width: 400px) {
+  .Services-container {
+    flex-direction: column;
+  }
+  .service {
+    width: 350px;
+  }
+}

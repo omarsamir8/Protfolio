@@ -69,3 +69,11 @@
 .courses h4 {
   margin-top: -10px;
 }
+@media (max-width: 400px) {
+  .edu-conatiner {
+    flex-direction: column;
+  }
+  .edu {
+    width: 350px;
+  }
+}

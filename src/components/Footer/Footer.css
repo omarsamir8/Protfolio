@@ -69,3 +69,15 @@
   color: white;
   cursor: pointer;
 }
+@media (max-width: 400px) {
+  .Footer-Container {
+    width: 350px;
+  }
+  .Footer-links ul {
+    width: 350px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+}
