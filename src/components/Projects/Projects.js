@@ -38,8 +38,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://graduation-project-beryl-seven.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Graduation-Project",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
 
@@ -64,7 +82,16 @@ function Projects() {
             </div>
             <div className="navigate">
               <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Full-Stack-E-commerce",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-left" className="project">
@@ -87,8 +114,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://e-commerce-react-project-green.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/E-COMMERCE-REACT-PROJECT",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-left" className="project">
@@ -111,8 +156,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://chat-bot-jade-nine.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/ChatBot",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-right" className="project">
@@ -132,8 +195,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://api-search-app-pi.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Api-Search-App",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-right" className="project">
@@ -152,8 +233,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://cruds-operations-beryl.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/CRUDS-Operations",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-left" className="project">
@@ -172,8 +271,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://e-commerce-of-clothes.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/E-commerce-Of-Clothes",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-left" className="project">
@@ -192,8 +309,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://tourism-rho-ochre.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Tourism",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-right" className="project">
@@ -211,8 +346,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://eductaion-plateform.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Eductaion-Plateform",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-right" className="project">
@@ -230,8 +383,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://e-commerce-of-honey.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/E-commerce-Of-Honey",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-left" className="project">
@@ -249,8 +420,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://template-by-html-css.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Template_by_html_css",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
           <div data-aos="fade-up-left" className="project">
@@ -268,8 +457,26 @@ function Projects() {
               <p>Diffrent Tools ..!</p>
             </div>
             <div className="navigate">
-              <button>Demo</button>
-              <button>Sourse</button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://landing-page-huai.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Landing-Page",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
             </div>
           </div>
         </div>

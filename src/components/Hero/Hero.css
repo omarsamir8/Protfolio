@@ -52,13 +52,13 @@
   font-family: cursive;
   color: white;
 }
-/* .left button:hover {
+.left button:hover {
   transform: scale(1.1) !important;
   -webkit-transform: scale(1.1) !important;
   -moz-transform: scale(1.1) !important;
   -ms-transform: scale(1.1) !important;
   -o-transform: scale(1.1) !important;
-} */
+}
 /* right side */
 .right {
   width: 45%;
