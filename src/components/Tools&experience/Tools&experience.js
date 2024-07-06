@@ -88,7 +88,7 @@ function ToolsExperience() {
                   class="fa-brands fa-asymmetrik"
                 ></i>
               </div>
-              <p>Animations</p>
+              <p>Animate</p>
             </div>
             <div className="tool">
               <div className="i">
