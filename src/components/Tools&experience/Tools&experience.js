@@ -97,7 +97,7 @@ function ToolsExperience() {
                   class="fa-brands fa-uikit"
                 ></i>
               </div>
-              <p>Material UI</p>
+              <p>Mat UI</p>
             </div>
 
             <div className="tool">
