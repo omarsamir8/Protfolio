@@ -1,0 +1,114 @@
+.projects {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  margin-top: 40px;
+}
+.projects h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+}
+.projects h2::after {
+  content: " ";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: coral;
+  left: 0;
+  bottom: -7px;
+}
+
+.projectcontainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project {
+  background-color: darkslategrey;
+  width: 22.5%;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.project:hover {
+  cursor: pointer;
+  transform: scale(1.04) !important;
+  -webkit-transform: scale(1.04) !important;
+  -moz-transform: scale(1.04) !important;
+  -ms-transform: scale(1.04) !important;
+  -o-transform: scale(1.04) !important;
+}
+.project img {
+  width: 90%;
+  height: 180px;
+  margin: auto;
+  margin-left: 15px;
+  margin-top: 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.project img:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
+}
+.project h3 {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.project p {
+  margin-left: 15px;
+}
+.protools {
+  display: flex;
+  gap: 0px;
+  flex-wrap: wrap;
+}
+.protools p {
+  background-color: rgb(72, 148, 148);
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.navigate {
+  display: flex;
+  gap: 10px;
+}
+.navigate button {
+  border: none;
+  outline: none;
+  background-color: coral;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}

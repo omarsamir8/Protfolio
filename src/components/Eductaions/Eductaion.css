@@ -1,0 +1,71 @@
+.Education {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  margin-top: 40px;
+}
+.education-title h2 {
+  position: relative;
+}
+.education-title h2:after {
+  content: " ";
+  position: absolute;
+  width: 320px;
+  height: 3px;
+  background-color: coral;
+  bottom: -5px;
+  left: 0;
+  margin-top: 5px;
+}
+.edu-conatiner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.edu {
+  width: 42%;
+  height: auto;
+  background-color: darkslategrey;
+  margin-top: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: start;
+}
+.lines-style {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lines-style .line {
+  width: 2px;
+  height: 150px;
+  background-color: coral;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.lines-style i {
+  color: coral;
+}
+.edu-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 40px;
+}
+.courses {
+  height: auto;
+  margin-top: 0px;
+}
+.courses p {
+  color: darkgray;
+}
+.courses h4 {
+  margin-top: -10px;
+}

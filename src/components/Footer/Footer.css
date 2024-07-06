@@ -1,0 +1,71 @@
+.Footer {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.Footer-title h2 {
+  position: relative;
+}
+.Footer-title h2::after {
+  content: " ";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: coral;
+}
+.Footer-Container {
+  width: 100%;
+  background-color: darkslategrey;
+  height: 38vh;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.Footer-Top h2 {
+  color: coral;
+}
+.Footer-Top p {
+  font-family: cursive;
+}
+.Footer-links ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+.Footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.Footer-links ul li a:hover {
+  color: coral;
+}
+.Footer-Line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: auto;
+}
+.Footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.Footer-icon i {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
