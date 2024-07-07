@@ -67,7 +67,7 @@
   width: 100%;
   height: 100%;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .contact {
     width: 350px;
     margin-left: 20px;

@@ -69,7 +69,7 @@
   color: white;
   cursor: pointer;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .Footer-Container {
     width: 350px;
   }

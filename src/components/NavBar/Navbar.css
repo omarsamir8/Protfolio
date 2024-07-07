@@ -63,3 +63,28 @@
 /* .navbar-content .navbar-items ul li:hover {
   color: yellow;
 } */
+@media (max-width: 500px) {
+  .navbar-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-items ul {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-items ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-items ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+  }
+}
