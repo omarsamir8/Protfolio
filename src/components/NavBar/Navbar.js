@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "../NavBar/Navbar.css";
 import "animate.css";
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -11,7 +17,7 @@ function Navbar() {
             <span>Omar</span> Samir
           </h2>
           <div className="navbar-items animate__animated animate__backInRight">
-            <ul>
+            <ul className={isMenuOpen ? "open" : ""}>
               <li className="Hm">
                 <a style={{ color: "coral" }} href="#home">
                   Home
@@ -30,12 +36,17 @@ function Navbar() {
                 <a href="#projects">Projects</a>
               </li>
               <li className="sm">
-                <a href="#education">Eduactions</a>
+                <a href="#education">Education</a>
               </li>
               <li className="sm">
                 <a href="#contact">Contact Us</a>
               </li>
             </ul>
+          </div>
+          <div className="list-icon-drop-down" onClick={toggleMenu}>
+            <a href="#list">
+              <i className="fa-solid fa-bars"></i>
+            </a>
           </div>
         </div>
       </nav>
