@@ -133,7 +133,7 @@ function ToolsExperience() {
                 <h5> 2-Make High Responsive </h5>
                 <h5> 3-Make Payment Method </h5>
                 <h5> 4-Make Smart Cart </h5>
-                <h5> 4-Make Smart Dashboard For Owner </h5>
+                <h5> 5-Make Smart Dashboard For Owner </h5>
               </div>
             </div>
             <div className="expreience">

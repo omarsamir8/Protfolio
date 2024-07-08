@@ -22,7 +22,15 @@ function Hero() {
             <button className="animate__animated animate__bounceInLeft explore">
               Explore
             </button>
-            <button className="animate__animated animate__bounceInRight cv">
+            <button
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/drive/folders/1F4rlA-6wJbvuoh9c6Ue7K2RWP1L9zfgN?hl=ar",
+                  "_blank"
+                );
+              }}
+              className="animate__animated animate__bounceInRight cv"
+            >
               Download CV{" "}
               <i style={{ color: "brown " }} class="fa-solid fa-download"></i>
             </button>
