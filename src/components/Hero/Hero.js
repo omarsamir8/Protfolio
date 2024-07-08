@@ -19,7 +19,15 @@ function Hero() {
             APIs and have successfully and creating animations
           </p>
           <div className="buttons">
-            <button className="animate__animated animate__bounceInLeft explore">
+            <button
+              onClick={() => {
+                window.scrollTo({
+                  top: 600, // المسافة التي تريد الاسكرول لها (بالبيكسل)
+                  behavior: "smooth", // لسلاسة الحركة
+                });
+              }}
+              className="animate__animated animate__bounceInLeft explore"
+            >
               Explore
             </button>
             <button
