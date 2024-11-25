@@ -7,7 +7,7 @@ function Hero() {
         <div data-aos="fade-up-right" className="left">
           <h5>Welcom To My Protfolio</h5>
           <h1>
-            Hi! I'am Omar Samir <span> Front End DeveloPer</span>
+            Hi! I'am Omar Samir <span> Front End Develober</span>
           </h1>
           <p>
             I am a front-end developer specializing in HTML5, CSS3, and

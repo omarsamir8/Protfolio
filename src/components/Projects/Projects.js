@@ -11,6 +11,8 @@ import Eductions from "../../Assets/Education platdorm.png";
 import Honey from "../../Assets/honey.png";
 import Template1 from "../../Assets/Template1.png";
 import Landing from "../../Assets/Landing Page.png";
+import elfursanshop from "../../Assets/elfursanshop.png";
+import ntiproject from "../../Assets/ntiproject.png";
 
 function Projects() {
   return (
@@ -18,6 +20,47 @@ function Projects() {
       <div className="projects">
         <h2>Projects</h2>
         <div className="projectcontainer">
+          <div data-aos="fade-up-right" className="project">
+            <img src={elfursanshop} alt=""></img>
+            <h3>El Fursan Shop</h3>
+            <p>
+            El-Fursan Shop for the finest types of spices, therapeutic and aromatic natural oils, and all kinds of confectionery ingredients{" "}
+            </p>
+            <div className="protools">
+              <p>Html</p>
+              <p>Css</p>
+              <p>Bootstrap</p>
+              <p>Saas</p>
+              <p>Express</p>
+              <p>Mongo DB</p>
+              <p>React.JS</p>
+              <p>Node.js</p>
+              <p>JS</p>
+              <p>Diffrent Tools ..!</p>
+            </div>
+            <div className="navigate">
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://el-fursan-design.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/El-Fursan-Design",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
+            </div>
+          </div>
           <div data-aos="fade-up-right" className="project">
             <img src={studentportalimg} alt=""></img>
             <h3>Student Portal </h3>
@@ -94,6 +137,7 @@ function Projects() {
               </button>
             </div>
           </div>
+         
           <div data-aos="fade-up-left" className="project">
             <img src={StaticEcommerce} alt=""></img>
             <h3>Static E-commerce </h3>
@@ -133,6 +177,37 @@ function Projects() {
                 }}
               >
                 Sourse
+              </button>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" className="project">
+            <img src={ntiproject} alt=""></img>
+            <h3>Nti-Final-Project </h3>
+            <p>
+            A system to display all smart electronic devices, such as mobile phones, laptops, screens, and some other devices
+            </p>
+            <div className="protools">
+              <p>Html</p>
+              <p>Css</p>
+              <p>Bootstrap</p>
+              <p>JS</p>
+              <p>Diffrent Tools ..!</p>
+            </div>
+            <div className="navigate">
+              <button onClick={() => {
+                  window.open(
+                    "https://nti-final-project.vercel.app/",
+                    "_blank"
+                  );
+                }}>Demo</button>
+              <button
+               onClick={() => {
+                window.open(
+                  "https://github.com/omarsamir8/Nti-Final-Project",
+                  "_blank"
+                );
+              }}
+              >Sourse
               </button>
             </div>
           </div>
