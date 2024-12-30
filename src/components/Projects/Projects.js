@@ -13,6 +13,7 @@ import Template1 from "../../Assets/Template1.png";
 import Landing from "../../Assets/Landing Page.png";
 import elfursanshop from "../../Assets/elfursanshop.png";
 import ntiproject from "../../Assets/ntiproject.png";
+import muslim from "../../Assets/masged.png";
 
 function Projects() {
   return (
@@ -20,6 +21,44 @@ function Projects() {
       <div className="projects">
         <h2>Projects</h2>
         <div className="projectcontainer">
+          <div data-aos="fade-up-right" className="project">
+            <img src={muslim} alt=""></img>
+            <h3>Muslim Way</h3>
+            <p>
+            A religious project to introduce Islam, provide knowledge about the Pillars of Islam and the Pillars of Faith, prayer timings, the Qur'an, Hadiths, and daily supplications (Adhkar).            </p>
+            <div className="protools">
+              <p>Html</p>
+              <p>Css</p>
+              <p>Bootstrap</p>
+              <p>Redux</p>
+              <p>I118.js</p>
+              <p>React.JS</p>
+              <p>Apis</p>
+              <p>JS</p>
+            </div>
+            <div className="navigate">
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://muslim-way-beta.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/muslim_way",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
+            </div>
+          </div>
           <div data-aos="fade-up-right" className="project">
             <img src={elfursanshop} alt=""></img>
             <h3>El Fursan Shop</h3>
