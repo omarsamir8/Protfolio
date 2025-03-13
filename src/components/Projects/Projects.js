@@ -14,6 +14,8 @@ import Landing from "../../Assets/Landing Page.png";
 import elfursanshop from "../../Assets/elfursanshop.png";
 import ntiproject from "../../Assets/ntiproject.png";
 import muslim from "../../Assets/masged.png";
+import purefit from "../../Assets/purfit.png";
+import movie from "../../Assets/movie.png";
 
 function Projects() {
   return (
@@ -21,6 +23,82 @@ function Projects() {
       <div className="projects">
         <h2>Projects</h2>
         <div className="projectcontainer">
+          <div data-aos="fade-up-right" className="project">
+            <img src={purefit} alt=""></img>
+            <h3>PureFit</h3>
+            <p>
+            The project aims to create a comprehensive platform (website + mobile app) specializing in providing healthy diet plans, balanced recipes, and nutritional guidelines tailored to different age groups and health needs           </p>
+            <div className="protools">
+              <p>Html</p>
+              <p>Css</p>
+              <p>Bootstrap</p>
+              <p>Redux</p>
+              <p>Next.JS</p>
+              <p>M(UI)</p>
+              <p>JS</p>
+            </div>
+            <div className="navigate">
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://pure-fit-nu.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/PureFit",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
+            </div>
+          </div>
+          <div data-aos="fade-up-right" className="project">
+            <img src={movie} alt=""></img>
+            <h3>Movie website</h3>
+            <p>
+The project is a movie browsing app with the following features:
+🎬 Categorized movies for easy navigation
+🎯 Personalized movie recommendations based on your interests of movies
+           </p>
+            <div className="protools">
+              <p>Html</p>
+              <p>Css</p>
+              <p>Bootstrap</p>
+              <p>React.JS</p>
+              <p>Apis</p>
+              <p>TypeScript</p>
+            </div>
+            <div className="navigate">
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://movie-seven-sigma.vercel.app/",
+                    "_blank"
+                  );
+                }}
+              >
+                Demo
+              </button>
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://github.com/omarsamir8/Movie",
+                    "_blank"
+                  );
+                }}
+              >
+                Sourse
+              </button>
+            </div>
+          </div>
           <div data-aos="fade-up-right" className="project">
             <img src={muslim} alt=""></img>
             <h3>Muslim Way</h3>
